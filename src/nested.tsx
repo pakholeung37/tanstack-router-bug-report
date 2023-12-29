@@ -10,11 +10,10 @@ import {
   NotFoundRoute,
   useRouter,
   useNavigate,
-  createHistory,
+  createMemoryHistory,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 import { useLayoutEffect } from "react";
-import { createMemoryHistory } from "./create-memery-history";
 
 const rootRoute = new RootRoute({
   component: NestedComponent,
